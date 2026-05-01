@@ -28,7 +28,7 @@ const beforeAfterGallery = [
 ];
 
 export default function BeforeAfterSection() {
-  const whatsappLink = 'https://wa.me/5511987654321?text=Quero%20agendar%20meu%20atendimento%20no%20Espa%C3%A7o%20Ysa%20Est%C3%A9tica';
+  const whatsappLink = 'https://wa.me/5511917511750?text=Quero%20agendar%20meu%20atendimento%20no%20Espa%C3%A7o%20Ysa%20Est%C3%A9tica';
 
   return (
     <section id="resultados" className="py-20 md:py-32 bg-muted">

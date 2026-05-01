@@ -1,7 +1,7 @@
 import { MessageCircle, Instagram, Phone, Mail } from 'lucide-react';
 
 export default function Footer() {
-  const whatsappLink = 'https://wa.me/5511987654321?text=Quero%20agendar%20meu%20atendimento%20no%20Espa%C3%A7o%20Ysa%20Est%C3%A9tica';
+  const whatsappLink = 'https://wa.me/5511917511750?text=Quero%20agendar%20meu%20atendimento%20no%20Espa%C3%A7o%20Ysa%20Est%C3%A9tica';
   const currentYear = new Date().getFullYear();
 
   return (
@@ -70,7 +70,7 @@ export default function Footer() {
                 className="flex items-center gap-2 text-white/70 hover:text-accent transition-colors text-sm"
               >
                 <MessageCircle size={16} />
-                (11) 98765-4321
+                (11) 91751-1750
               </a>
               <a
                 href="tel:+551133334444"

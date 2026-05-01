@@ -1,7 +1,7 @@
 import { MessageCircle, MapPin, Phone, Instagram, Mail, Clock } from 'lucide-react';
 
 export default function ContactSection() {
-  const whatsappLink = 'https://wa.me/5511987654321?text=Quero%20agendar%20meu%20atendimento%20no%20Espa%C3%A7o%20Ysa%20Est%C3%A9tica';
+  const whatsappLink = 'https://wa.me/5511917511750?text=Quero%20agendar%20meu%20atendimento%20no%20Espa%C3%A7o%20Ysa%20Est%C3%A9tica';
 
   return (
     <section id="contato" className="py-20 md:py-32 bg-primary text-white">
@@ -29,7 +29,7 @@ export default function ContactSection() {
               <MessageCircle size={32} className="text-accent group-hover:scale-110 transition-transform" />
             </div>
             <h3 className="font-semibold mb-2 text-lg">WhatsApp</h3>
-            <p className="text-white/80 text-sm">(11) 98765-4321</p>
+            <p className="text-white/80 text-sm">(11) 91751-1750</p>
             <p className="text-white/60 text-xs mt-2">Resposta rápida</p>
           </a>
 
@@ -79,10 +79,9 @@ export default function ContactSection() {
                 <MapPin size={24} className="text-accent flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-semibold text-lg mb-2">Localização</h3>
-                  <p className="text-white/80">
-                    Rua das Flores, 123<br />
-                    Bairro Centro<br />
-                    São Paulo - SP, 01310-100
+                  <p className="text-white/80 text-sm">São Paulo - SP<br />
+                    Ambiente sofisticado e aconchegante<br />
+                    Estacionamento disponível
                   </p>
                 </div>
               </div>
